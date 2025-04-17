@@ -1,0 +1,11 @@
+# Server Config
+server:
+  host: 127.0.0.1           # 本地回环地址(IP地址)
+  port: 6001                # 服务器服务端口
+  backlog: 5                # 服务器最大连接数量
+  db_path: "./database.db"  # 数据库文件路径
+
+# Client Config
+client:
+  reconnect_attempts: 5     # 最大重连次数
+  heartbeat_interval: 10    # 心跳包发送间隔
