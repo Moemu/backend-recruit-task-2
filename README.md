@@ -48,7 +48,7 @@
 
 1. 确保安装了所有依赖包:
    ```
-   pip install pydantic aiosqlite colorlog
+   pip install pydantic aiosqlite colorlog arclet-alconna
    ```
 
 2. 配置服务 (可选):
